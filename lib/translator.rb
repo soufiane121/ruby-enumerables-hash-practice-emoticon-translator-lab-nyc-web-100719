@@ -4,7 +4,10 @@ require "pry"
 emoticons = YAML.load_file('./lib/emoticons.yml')
 def load_library(emoticons)
   emoticons = YAML.load_file('./lib/emoticons.yml')
-   emoticons
+  final_hash={
+    get__meaning: {},
+    get_emoticon: {}
+  }
 end
 
 def get_japanese_emoticon
