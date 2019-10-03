@@ -9,7 +9,7 @@ def load_library(emoticons)
     get_emoticon: {}
   }
   emoticons.each do |meaning,english_japanaise_emoji|
-    final_hash[:get_meaning]= english_japanaise_emoji[1]
+    final_hash[:get_meaning]
   end
 end
 
